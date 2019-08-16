@@ -22,8 +22,8 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "notSetText": "this field is required",
-    "help": "site registered with opentracker",
+    "notSetText": "This field is required",
+    "help": "The site registered at www.opentracker.net. An example would be \"www.example.com\".",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
@@ -43,7 +43,7 @@ ___WEB_PERMISSIONS___
   {
     "instance": {
       "key": {
-        "publicId": "send_pixel",
+        "publicId": "inject_script",
         "versionId": "1"
       },
       "param": [
@@ -54,7 +54,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://log.opentracker.net/"
+                "string": "https://script.opentracker.net/*"
               }
             ]
           }
@@ -79,17 +79,22 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 //data.gtmOnSuccess();
 
 // require relevant API
-const sendPixel = require('sendPixel');
-const encodeUriComponent = require('encodeUriComponent');
+//const sendPixel = require('sendPixel');
+//const encodeUriComponent = require('encodeUriComponent');
 
 // capture values of template fields
-const site = data.site;
+//const site = data.site;
 
 // use the provided APIs to do things like send pixels
-const url = 'https://log.opentracker.net/?site=' + encodeUriComponent(site);
-sendPixel(url, data.gtmOnSuccess, data.gtmOnFailure);
+//const url = 'https://log.opentracker.net/?site=' + encodeUriComponent(site);
+//sendPixel(url, data.gtmOnSuccess, data.gtmOnFailure);
+
+var ot_site = data.site;
+const injectScript = require('injectScript');
+const url = 'https://script.opentracker.net/?site=' + ot_site;
+injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
 ___NOTES___
 
-Created on 8/16/2019, 3:36:50 PM
+Created on 8/16/2019, 4:16:58 PM
