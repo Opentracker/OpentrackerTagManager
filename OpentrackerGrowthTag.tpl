@@ -80,7 +80,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 // require relevant API
 //const sendPixel = require('sendPixel');
-//const encodeUriComponent = require('encodeUriComponent');
+const encodeUriComponent = require('encodeUriComponent');
 
 // capture values of template fields
 //const site = data.site;
@@ -91,10 +91,10 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 var ot_site = data.site;
 const injectScript = require('injectScript');
-const url = 'https://script.opentracker.net/?site=' + ot_site;
+const url = 'https://script.opentracker.net/?site=' + encodeUriComponent(ot_site);
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 
 ___NOTES___
 
-Created on 8/19/2019, 1:20:35 PM
+Created on 8/20/2019, 9:36:37 AM
