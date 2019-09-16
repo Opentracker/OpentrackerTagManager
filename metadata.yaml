@@ -1,0 +1,5 @@
+homepage: "www.opentracker.net",
+documentation: "https://www.opentracker.net/docs",
+versions:
+  - sha: 4ded692619c4a0b69a0fc7dd17863a57cccf512e
+    changeNotes: Initial Version
