@@ -2,7 +2,7 @@
 
 {
   "displayName": "OpentrackerGrowthTag",
-  "description": "Growing your business. Connect the dots with real-time insights. Providing relevant, agile & accurate analytics.",
+  "description": "Connect the dots with real-time insights and grow your business with this tag. Providing relevant, agile & accurate analytics.",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
