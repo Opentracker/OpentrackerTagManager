@@ -10,7 +10,7 @@ ___INFO___
 {
   "displayName": "OpentrackerGrowthTag",
   "description": "Connect the dots with real-time insights and grow your business with this tag. Providing relevant, agile & accurate analytics.",
-  "categories": ["ANALYTICS", "CONVERSION_TRACKING", "DATA_WAREHOUSING"],
+  "categories": ["ANALYTICS", "CONVERSIONS", "DATA_WAREHOUSING"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
