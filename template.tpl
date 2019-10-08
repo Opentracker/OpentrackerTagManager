@@ -5,10 +5,11 @@ Template Gallery Developer Terms of Service available at
 https://developers.google.com/tag-manager/gallery-tos (or such other URL as
 Google may provide), as modified from time to time.
 
+
 ___INFO___
 
 {
-  "displayName": "OpentrackerGrowthTag",
+  "displayName": "101 Opentracker Growth Tag",
   "description": "Connect the dots with real-time insights and grow your business with this tag. Providing relevant, agile & accurate analytics.",
   "categories": ["ANALYTICS", "CONVERSIONS", "DATA_WAREHOUSING"],
   "securityGroups": [],
@@ -105,4 +106,4 @@ injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
 ___NOTES___
 
-Created on 8/20/2019, 9:36:37 AM
+Created on 10/8/2019, 11:26:59 AM
