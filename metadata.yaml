@@ -1,5 +1,5 @@
 homepage: "www.opentracker.net"
-documentation: "https://www.opentracker.net/docs"
+documentation: "https://help.opentracker.net/category/106-ot4---reports"
 versions:
   - sha: b97536f9c5c715495179ed43495d153074a88129
     changeNotes: Google team has change the category CONVERSION_TRACKING to CONVERSIONS, hence the changed here
