@@ -1,6 +1,8 @@
 homepage: "www.opentracker.net"
 documentation: "https://help.opentracker.net/category/106-ot4---reports"
 versions:
+  - sha: 4bb9333dad33e5326c1eb076eafb58c79dc16515
+    changeNotes: Update display name.
   - sha: ff025693c953e9b0dd82bc13b5d865e7ccc0f43a
     changeNotes: Update display name. Update help documentation link.
   - sha: b97536f9c5c715495179ed43495d153074a88129
