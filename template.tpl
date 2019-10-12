@@ -9,7 +9,7 @@ Google may provide), as modified from time to time.
 ___INFO___
 
 {
-  "displayName": "101 Opentracker Growth Tag",
+  "displayName": "OpentrackerGrowthTag",
   "description": "Connect the dots with real-time insights and grow your business with this tag. Providing relevant, agile & accurate analytics.",
   "categories": ["ANALYTICS", "CONVERSIONS", "DATA_WAREHOUSING"],
   "securityGroups": [],
